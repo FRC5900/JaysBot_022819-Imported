@@ -207,7 +207,7 @@ public class Robot extends TimedRobot
   @Override
   public void testInit() 
   {
-    SmartDashboard.putString("Mode", "Test Init" );
+    SmartDashboard.putString("Mode", "TestInit()" );
     super.testInit();
     RightMotor.set(ControlMode.PercentOutput, 0.0,  DemandType.ArbitraryFeedForward, 0.0);
     LeftMotor.set(ControlMode.PercentOutput, 0.0, DemandType.ArbitraryFeedForward, 0.0);
